@@ -4,20 +4,65 @@
     justify-content: space-between;
     background-color: black;
     color: white;
-    height : 60px;
+    height : 50px;
     border-radius: 5px;
-    padding-right: 170px;
+    padding-right: 20px;
     font-family: Arial, Helvetica, sans-serif; 
-
+    padding-bottom: 0px;
+   
 }
-.logo{
-    font-size: 24px;
+.food{
+    
     font-weight: bolder;
-    padding-top:1px;
-    padding-left: 35px;
-    font-family:  none; 
-}  
- 
+    padding-left:15px;
+} 
+.food2{
+     font-weight:bolder;
+     color:rgb(211, 128, 68);
+    padding-right:170px;
+}
+.account{
+    padding-left: 10px;
+    padding-left: 10px;
+    
+} 
+.about{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.Popular:hover{
+  text-decoration: underline;
+    text-decoration-color: rgb(20, 166, 182);
+}
+.Recipes:hover{
+  text-decoration: underline;
+    text-decoration-color: rgb(20, 166, 182);
+}
+.HealthyDiet:hover{
+  text-decoration: underline;
+    text-decoration-color: rgb(20, 166, 182);
+}
+.Holidays:hover{
+  text-decoration: underline;
+    text-decoration-color: rgb(20, 166, 182);
+}
+.Cuisine:hover{
+  text-decoration: underline;
+    text-decoration-color: rgb(20, 166, 182);
+}
+.Seasonal:hover{
+  text-decoration: underline;
+    text-decoration-color: rgb(20, 166, 182);
+}
+.account:hover{
+  text-decoration: underline;
+    text-decoration-color: rgb(20, 166, 182);
+}
+.about:hover{
+  text-decoration: underline;
+    text-decoration-color: rgb(20, 166, 182);
+}
+
 .dropdown {
     position: relative;
     display: flex;
@@ -39,25 +84,25 @@
     top: 36px;
     left: 0;
     background: black;
-    min-width: 220px;
+    min-width: 170px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     border-radius: 6px;
     z-index: 100;
     padding: 10px 0;
-    text-align: center;
+    
 }
 .dropdown-content-2 {
     display: none;
     position: absolute;
     top: 36px;
-    left: 70px;
+    left: 60px;
     background: black;
-    min-width: 220px;
+    min-width: 170px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     border-radius: 6px;
     z-index: 100;
     padding: 10px 0;
-    text-align: center;
+   
 }
 .dropdown-content-3{
     display: none;
@@ -65,12 +110,12 @@
     top: 36px;
     left: 160px;
     background: black;
-    min-width: 220px;
+    min-width: 150px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     border-radius: 6px;
     z-index: 100;
     padding: 10px 0;
-    text-align: center;
+   
 }
 .dropdown-content-4 {
     display: none;
@@ -78,12 +123,12 @@
     top: 36px;
     left: 270px;
     background: black;
-    min-width: 220px;
+    min-width: 170px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     border-radius: 6px;
     z-index: 100;
     padding: 10px 0;
-    text-align: center;
+   
 }
 .dropdown-content-5 {
     display: none;
@@ -91,12 +136,12 @@
     top: 36px;
     left: 400px;
     background: black;
-    min-width: 220px;
+    min-width: 170px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     border-radius: 6px;
     z-index: 100;
     padding: 10px 0;
-    text-align: center;
+   
 }
 .dropdown-content-6 {
     display: none;
@@ -104,52 +149,118 @@
     top: 36px;
     left: 530px;
     background: black;
-    min-width: 220px;
+    min-width: 170px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     border-radius: 6px;
     z-index: 100;
     padding: 10px 0;
-    text-align: center;
+   
 }
-
+.dropdown-content-7 {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 620px;
+    background: black;
+    min-width: 150px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    border-radius: 6px;
+    z-index: 100;
+    padding: 10px 0;
+   
+}
+.dropdown-content-8 {
+    display: none;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background: black;
+    min-width: 150px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.08);
+    border-radius: 6px;
+    z-index: 100;
+    padding: 10px 0;
+    
+}
 .dropdown > h5:hover + .dropdown-content-1,
 .dropdown-content-1:hover {
-    display: block;
+    display: inline;
 }
 .dropdown > h5:hover + .dropdown-content-2,
 .dropdown-content-2:hover {
-    display: block;
+    display: inline;
 }
 .dropdown > h5:hover + .dropdown-content-3,
 .dropdown-content-3:hover {
-    display: block;
+    display: inline;
 }
 .dropdown > h5:hover + .dropdown-content-4,
 .dropdown-content-4:hover {
-    display: block;
+    display: inline;
 }
 .dropdown > h5:hover + .dropdown-content-5,
 .dropdown-content-5:hover {
-    display: block;
+    display: inline;
 }
 .dropdown > h5:hover + .dropdown-content-6,
 .dropdown-content-6:hover {
-    display: block;
+    display: inline;
+}
+.dropdown > h4:hover + .dropdown-content-7,
+.dropdown-content-7:hover {
+    display: inline;
+}
+.dropdown > h4:hover + .dropdown-content-8,
+.dropdown-content-8:hover {
+    display: inline;
 }
 
 
-.dropdown-content-1 p,.dropdown-content-2 p,.dropdown-content-3 p,.dropdown-content-4 p,.dropdown-content-5 p,.dropdown-content-6 p {
+.dropdown-content-1 p,.dropdown-content-2 p,.dropdown-content-3 p,.dropdown-content-4 p,.dropdown-content-5 p,.dropdown-content-6 p ,.dropdown-content-7 p ,.dropdown-content-8 p {
     margin: 0;
     padding: 10px 24px;
     color: whitesmoke;
     cursor: pointer;
     transition: background 0.2s;
     font-size: 0.98rem;
+    
 }
 
-.dropdown-content-1 p:hover,.dropdown-content-2 p:hover,.dropdown-content-3 p:hover,.dropdown-content-4 p:hover,.dropdown-content-5 p:hover,.dropdown-content-6 p:hover {
+.dropdown-content-1 p:hover,.dropdown-content-2 p:hover,.dropdown-content-3 p:hover,.dropdown-content-4 p:hover,.dropdown-content-5 p:hover,.dropdown-content-6 p:hover, .dropdown-content-7 p:hover,.dropdown-content-8 p:hover {
     background: #f2f2f2;
     color: black;
+    
 }
 
+.hero {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(43, 39, 39);
+    padding: 32px 48px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color:rgb(211, 128, 68);
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin: 0;
+}
 
