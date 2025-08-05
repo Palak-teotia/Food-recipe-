@@ -1,3 +1,4 @@
+/* make a navbar with a dropdown menu  */
 .navbar{
     display: flex;
     flex-direction: row;
@@ -10,6 +11,7 @@
     padding-bottom: 0px;
    
 }
+   /* add padding to website name  */
 .food{
     
     font-weight: bolder;
@@ -20,6 +22,7 @@
      color:rgb(211, 128, 68);
     padding-right:170px;
 }
+   /* give padding to account and about us  */
 .account{
     padding-left: 10px;
     padding-left: 10px;
@@ -29,6 +32,7 @@
     padding-right: 10px;
     padding-left: 10px;
 }
+   /* add a underline to the navbar items on hover */
 .Popular:hover{
   text-decoration: underline;
     text-decoration-color: rgb(20, 166, 182);
@@ -62,6 +66,7 @@
     text-decoration-color: rgb(20, 166, 182);
 }
 
+     /* create a dropdown menu */
 .dropdown {
     position: relative;
     display: flex;
@@ -76,7 +81,7 @@
    font-size: 1rem;
     font-weight: 500;
 }
-
+   /* add dropdown items in dropdown menu  with padding */
 .dropdown-content-1 {
     display: none;
     position: absolute;
@@ -181,6 +186,7 @@
     padding: 10px 0;
     
 }
+      /* show dropdown menu on hover */
 .dropdown > h5:hover + .dropdown-content-1,
 .dropdown-content-1:hover {
     display: inline;
@@ -214,7 +220,7 @@
     display: inline;
 }
 
-
+ /* add padding,color and font size to dropdown items */
 .dropdown-content-1 p,.dropdown-content-2 p,.dropdown-content-3 p,.dropdown-content-4 p,.dropdown-content-5 p,.dropdown-content-6 p ,.dropdown-content-7 p ,.dropdown-content-8 p {
     margin: 0;
     padding: 10px 24px;
@@ -224,13 +230,13 @@
     font-size: 0.98rem;
     
 }
-
+  /* add background color to dropdown items on hover */
 .dropdown-content-1 p:hover,.dropdown-content-2 p:hover,.dropdown-content-3 p:hover,.dropdown-content-4 p:hover,.dropdown-content-5 p:hover,.dropdown-content-6 p:hover, .dropdown-content-7 p:hover,.dropdown-content-8 p:hover {
     background: #f2f2f2;
     color: black;
     
 }
-
+  /* give height and width to hero section and add background image */ 
 .hero {
     position: relative;
     width: 100%;
@@ -238,7 +244,7 @@
     overflow: hidden;
 }
 
-
+   /* adding text in hero section  */
 .hero-text {
     position: absolute;
     top: 50%;
@@ -262,6 +268,7 @@
     font-size: 1.2rem;
     margin: 0;
 }
+   /* add images and there text  in heading section  */
 .concept-img {
     display: flex;
     flex-direction: row;
@@ -302,9 +309,11 @@
     margin-top: 12px;
    
 }
+    /* add main section with flexbox and padding */
 .explore-more{
     display: flex;
 }
+  /* add transform on images in main section on certain time intervals */
 @keyframes explore-more-img {
     0% {
         transform: translateX(0%);
@@ -321,15 +330,15 @@
     }
     
 }
+  /* add animation on images in main section */
 .explore-more-img {
     animation : explore-more-img 5s linear infinite normal;
     display: inline-block;
 }
-
+  /* add animation on text in images in main section */
 .explore-more-title {
     display: inline-block;
     color:black;
-    /* background-color: rgb(187, 172, 172); */
     font-size: 1.2rem;
     margin-bottom: 0px;
     margin-top : 2px;
@@ -343,40 +352,42 @@
       position: relative;
       z-index: 2;
 }
+  /* add animation on text in images in main section with different time intervals */
 @keyframes explore-more-title {
     0% { opacity: 0; }
       25% { opacity: 25%; }
       60% { opacity: 50%; }
       100% { opacity: 100%; }
 }
-   
+  /* add  margin and color in main 2_section */
 .recipe-categories-heading{
   display: flex;
 }
 .recipe-categories-heading-2 {
     font-size: 2.2rem;
     margin-left: 20px;
-    
- 
 }
+  /* add margin and flexbox in images in main 2_section  */
 .category-item {
         display: flex;
         flex-direction: row;
         align-items: center;
         margin-top: 20px;
-       
 }
+  /* add margin and font size in images title */
 .category-title {
         font-size: 2.5rem;
         color: rgb(43, 39, 39);
         margin-left: 70px;
         margin-bottom: 200px;
-}  
+}
+  /* add color and font size in images title and description   */
 .category-description {
         font-size: 1.2rem;
-        color: rgb(211, 128, 68);
-     
+        color: rgb(211, 128, 68);    
 } 
+
+ /* give flexbox and height and width and padding and margin in footer  search area  */
 .search-area {
     display: flex;
     display: inline-block;
@@ -389,9 +400,11 @@
     padding-left: 400px;
     margin-top: 10px;
 }
+   /* add margin in search area 's  text */
 .search-area h2 {
     margin-left: 130px;  
 }
+  /* add padding,height,width and border in search bar */
 .search-area input[type="text"] {
     width: 450px;
     height: 15px;
@@ -400,6 +413,7 @@
     border-radius: 8px;
     border: 1px solid #ccc;
 }
+   /* add padding ,border and margin in submit button  */
 .button{
     background-color: rgb(211, 128, 68);
     color:rgb(44, 43, 43);
@@ -411,7 +425,7 @@
     margin-left: 190px;
     margin-top: 10px;
 }
-
+   /* add height, width ,background and flexbox in footer */
 .footer-content {
     background-color: rgb(211, 128, 68);
     height: 100px;
@@ -419,6 +433,7 @@
     display: flex;
     display: inline-block;
 }
+   /* remove underline from social media names */
 #social-media a {
    text-decoration: none;
 }
