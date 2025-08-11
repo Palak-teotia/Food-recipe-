@@ -190,34 +190,42 @@
 .dropdown > h5:hover + .dropdown-content-1,
 .dropdown-content-1:hover {
     display: inline;
+    text-decoration: none;
 }
 .dropdown > h5:hover + .dropdown-content-2,
 .dropdown-content-2:hover {
     display: inline;
+    text-decoration: none;
 }
 .dropdown > h5:hover + .dropdown-content-3,
 .dropdown-content-3:hover {
     display: inline;
+    text-decoration: none;
 }
 .dropdown > h5:hover + .dropdown-content-4,
 .dropdown-content-4:hover {
     display: inline;
+    text-decoration: none;
 }
 .dropdown > h5:hover + .dropdown-content-5,
 .dropdown-content-5:hover {
     display: inline;
+    text-decoration: none;
 }
 .dropdown > h5:hover + .dropdown-content-6,
 .dropdown-content-6:hover {
     display: inline;
+    text-decoration: none;
 }
 .dropdown > h4:hover + .dropdown-content-7,
 .dropdown-content-7:hover {
     display: inline;
+    text-decoration: none;
 }
 .dropdown > h4:hover + .dropdown-content-8,
 .dropdown-content-8:hover {
     display: inline;
+    text-decoration: none;
 }
 
  /* add padding,color and font size to dropdown items */
@@ -228,13 +236,14 @@
     cursor: pointer;
     transition: background 0.2s;
     font-size: 0.98rem;
+    text-decoration: none;
     
 }
   /* add background color to dropdown items on hover */
 .dropdown-content-1 p:hover,.dropdown-content-2 p:hover,.dropdown-content-3 p:hover,.dropdown-content-4 p:hover,.dropdown-content-5 p:hover,.dropdown-content-6 p:hover, .dropdown-content-7 p:hover,.dropdown-content-8 p:hover {
     background: #f2f2f2;
     color: black;
-    
+    text-decoration: none;
 }
   /* give height and width to hero section and add background image */ 
 .hero {
@@ -436,66 +445,4 @@
    /* remove underline from social media names */
 #social-media a {
    text-decoration: none;
-}
-.breakfast-recipes {
-    padding: 20px;
-}
-#breakfast-header {
-    background-color: rgb(211, 128, 68);
-    color: white;
-    height: 90px;
-    width: 100%;
-}
-
-
-/* Style the pancake section content and images */
-#pancakes {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-}
-
-#pancakes img {
-    display: flex;
-    margin: 20px auto;
-    max-width: 350px;
-    border-radius: 12px;
-}
-
-/* Style the pancake section content and images */
-#omelette {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-}
-
-#omelette img {
-    display: flex;
-    margin: 20px auto;
-    max-width: 350px;
-    border-radius: 12px;
-}
-/* Style the pancake section content and images */
-#smoothie-bowl{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    /* margin: 0 auto;
-    width: 100%; */
-}
-
-#smoothie-bowl img {
-    display: flex;
-    margin: 20px auto;
-    max-width: 350px;
-    border-radius: 12px;
 }
