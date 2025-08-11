@@ -437,3 +437,65 @@
 #social-media a {
    text-decoration: none;
 }
+.breakfast-recipes {
+    padding: 20px;
+}
+#breakfast-header {
+    background-color: rgb(211, 128, 68);
+    color: white;
+    height: 90px;
+    width: 100%;
+}
+
+
+/* Style the pancake section content and images */
+#pancakes {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+#pancakes img {
+    display: flex;
+    margin: 20px auto;
+    max-width: 350px;
+    border-radius: 12px;
+}
+
+/* Style the pancake section content and images */
+#omelette {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#omelette img {
+    display: flex;
+    margin: 20px auto;
+    max-width: 350px;
+    border-radius: 12px;
+}
+/* Style the pancake section content and images */
+#smoothie-bowl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin: 0 auto;
+    width: 100%; */
+}
+
+#smoothie-bowl img {
+    display: flex;
+    margin: 20px auto;
+    max-width: 350px;
+    border-radius: 12px;
+}
